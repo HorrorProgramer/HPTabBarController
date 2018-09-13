@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0333DD31214A616500838D30 /* BasicTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333DD30214A616500838D30 /* BasicTabBarController.swift */; };
 		513C32657FF5B0DFB405574F /* Pods_HPTabBarController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AB4CEAF5570D3A72E1C098 /* Pods_HPTabBarController_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,8 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0333DD30214A616500838D30 /* BasicTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTabBarController.swift; sourceTree = "<group>"; };
 		06AB4CEAF5570D3A72E1C098 /* Pods_HPTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPTabBarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		360B22FED834E8A563471D16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		360B22FED834E8A563471D16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CD426F5674AB5D335CFF5E3 /* Pods-HPTabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTabBarController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPTabBarController_Example/Pods-HPTabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HPTabBarController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPTabBarController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +46,8 @@
 		7A4AF7AA36395DCCF3CC1908 /* Pods_HPTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPTabBarController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		981A3CB67568395FF55C08BE /* Pods-HPTabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTabBarController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPTabBarController_Tests/Pods-HPTabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A5FDD5ACFC7519FB6646E8E /* Pods-HPTabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTabBarController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPTabBarController_Example/Pods-HPTabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B225FAD931BDC7422414A9AC /* HPTabBarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HPTabBarController.podspec; path = ../HPTabBarController.podspec; sourceTree = "<group>"; };
-		E5DE3186ED23132B6D75C114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B225FAD931BDC7422414A9AC /* HPTabBarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HPTabBarController.podspec; path = ../HPTabBarController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E5DE3186ED23132B6D75C114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F56CE3D386038AB7D5752028 /* Pods-HPTabBarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTabBarController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPTabBarController_Tests/Pods-HPTabBarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0333DD2D214A613B00838D30 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				0333DD30214A616500838D30 /* BasicTabBarController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0333DD2E214A613C00838D30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0333DD2F214A613C00838D30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,8 +118,10 @@
 		607FACD21AFB9204008FA782 /* Example for HPTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				0333DD2F214A613C00838D30 /* Models */,
+				0333DD2D214A613B00838D30 /* ViewControllers */,
+				0333DD2E214A613C00838D30 /* Views */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -348,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				0333DD31214A616500838D30 /* BasicTabBarController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

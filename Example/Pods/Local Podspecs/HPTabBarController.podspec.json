@@ -1,0 +1,37 @@
+{
+  "name": "HPTabBarController",
+  "version": "0.1.0",
+  "summary": "Custom HPTabBarController.",
+  "description": "According Third Lib TabBarController To Creat HPTabBarController",
+  "homepage": "git@github.com:syika/ABCTabBarController.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PangJunJie": "xwhnnd@163.com"
+  },
+  "source": {
+    "git": "git@github.com:syika/ABCTabBarController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "default_subspecs": "TabBarController",
+  "subspecs": [
+    {
+      "name": "TabBarController",
+      "source_files": "HPTabBarController/Classes/TabBarController/**/*",
+      "dependencies": {
+        "HPTabBarController/TabBarViews": [
+
+        ]
+      }
+    },
+    {
+      "name": "TabBarViews",
+      "source_files": "HPTabBarController/Classes/TabBarViews/**/*"
+    }
+  ]
+}

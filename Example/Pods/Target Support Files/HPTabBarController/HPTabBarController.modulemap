@@ -1,0 +1,6 @@
+framework module HPTabBarController {
+  umbrella header "HPTabBarController-umbrella.h"
+
+  export *
+  module * { export * }
+}

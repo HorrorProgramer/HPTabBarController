@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'HPTabBarController_Example' do
   pod 'HPTabBarController', :path => '../'
+  pod 'HPTabBarController/TabBarViews', :path => '../'
 
   target 'HPTabBarController_Tests' do
     inherit! :search_paths
