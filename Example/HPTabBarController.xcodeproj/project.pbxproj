@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0333DD31214A616500838D30 /* BasicTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333DD30214A616500838D30 /* BasicTabBarController.swift */; };
+		0333DD33214A65DC00838D30 /* BasicTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333DD32214A65DC00838D30 /* BasicTabBar.swift */; };
+		0333DD36214A683500838D30 /* ViewController01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333DD34214A683500838D30 /* ViewController01.swift */; };
+		0333DD37214A683500838D30 /* ViewController01.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0333DD35214A683500838D30 /* ViewController01.xib */; };
+		0333DD3A214A683F00838D30 /* ViewController02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333DD38214A683F00838D30 /* ViewController02.swift */; };
+		0333DD3B214A683F00838D30 /* ViewController02.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0333DD39214A683F00838D30 /* ViewController02.xib */; };
 		513C32657FF5B0DFB405574F /* Pods_HPTabBarController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AB4CEAF5570D3A72E1C098 /* Pods_HPTabBarController_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,6 +35,11 @@
 
 /* Begin PBXFileReference section */
 		0333DD30214A616500838D30 /* BasicTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTabBarController.swift; sourceTree = "<group>"; };
+		0333DD32214A65DC00838D30 /* BasicTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTabBar.swift; sourceTree = "<group>"; };
+		0333DD34214A683500838D30 /* ViewController01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController01.swift; sourceTree = "<group>"; };
+		0333DD35214A683500838D30 /* ViewController01.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController01.xib; sourceTree = "<group>"; };
+		0333DD38214A683F00838D30 /* ViewController02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController02.swift; sourceTree = "<group>"; };
+		0333DD39214A683F00838D30 /* ViewController02.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController02.xib; sourceTree = "<group>"; };
 		06AB4CEAF5570D3A72E1C098 /* Pods_HPTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPTabBarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		360B22FED834E8A563471D16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CD426F5674AB5D335CFF5E3 /* Pods-HPTabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTabBarController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPTabBarController_Example/Pods-HPTabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +86,10 @@
 			children = (
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				0333DD30214A616500838D30 /* BasicTabBarController.swift */,
+				0333DD34214A683500838D30 /* ViewController01.swift */,
+				0333DD35214A683500838D30 /* ViewController01.xib */,
+				0333DD38214A683F00838D30 /* ViewController02.swift */,
+				0333DD39214A683F00838D30 /* ViewController02.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -83,6 +97,7 @@
 		0333DD2E214A613C00838D30 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0333DD32214A65DC00838D30 /* BasicTabBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,10 +255,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LYF8G4H56R;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LYF8G4H56R;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -274,7 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				0333DD37214A683500838D30 /* ViewController01.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				0333DD3B214A683F00838D30 /* ViewController02.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,8 +393,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0333DD3A214A683F00838D30 /* ViewController02.swift in Sources */,
+				0333DD36214A683500838D30 /* ViewController01.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				0333DD31214A616500838D30 /* BasicTabBarController.swift in Sources */,
+				0333DD33214A65DC00838D30 /* BasicTabBar.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +544,7 @@
 			baseConfigurationReference = 9A5FDD5ACFC7519FB6646E8E /* Pods-HPTabBarController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LYF8G4H56R;
 				INFOPLIST_FILE = HPTabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -537,6 +560,7 @@
 			baseConfigurationReference = 5CD426F5674AB5D335CFF5E3 /* Pods-HPTabBarController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LYF8G4H56R;
 				INFOPLIST_FILE = HPTabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -551,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F56CE3D386038AB7D5752028 /* Pods-HPTabBarController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LYF8G4H56R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -573,6 +598,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 981A3CB67568395FF55C08BE /* Pods-HPTabBarController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = LYF8G4H56R;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
